@@ -23,9 +23,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://192.168.153.128:3306/tensquare_base              # 数据库名称
+    url: jdbc:mysql://192.168.47.129:3306/tensquare_base              # 数据库名称
     username: root
-    password: 123456
+    password: 456654
     dbcp2:
       min-idle: 5                                           # 数据库连接池的最小维持连接数
       initial-size: 5                                       # 初始化连接数
@@ -44,7 +44,7 @@ eureka:
 
 info:
   app.name: tensquare
-  company.name: www.thishome.xyz
+  company.name: com.zzdx.zd
 
 ---
 
@@ -67,9 +67,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://192.168.153.128:3306/tensquare_base             # 数据库名称
+    url: jdbc:mysql://192.168.47.129:3306/tensquare_base             # 数据库名称
     username: root
-    password: 123456
+    password: 456654
     dbcp2:
       min-idle: 5                                           # 数据库连接池的最小维持连接数
       initial-size: 5                                       # 初始化连接数
@@ -88,4 +88,4 @@ eureka:
 
 info:
   app.name: tensquare
-  company.name: www.thishome.xyz
+  company.name: com.zzdx.zd
